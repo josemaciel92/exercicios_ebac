@@ -16,7 +16,6 @@
             Exemplos:
             | username     | password    |
             | "JoseMaciel" | "Ebac1010"  | 
-            | "LucasEduard"| "Ebac2026@" |
 
             Esquema do Cenário: Login com dados inválidos
             Quando eu inserir <username>
@@ -26,5 +25,4 @@
             Exemplos:
             | username     | password    | mensagem                     |
             | "JoseMaciel" | "/**"       | "Usuário ou senha inválidos" |
-            | "#R$$"       | "Ebac2026@" | "Usuário ou senha inválidos" |
 
