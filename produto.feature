@@ -19,13 +19,15 @@
             | "RedBull T-shirt"         | "Orange" | "M"     | 8          |
 
             Esquema do Cenário: Limite máximo de 10 produtos por venda
-            Quando eu selecionar o <produto> na <cor> no <tamanho> e atribuir a <quantidade>
+            Quando eu selecionar um produto e atribuir a <quantidade>
             E clicar no botão "Comprar"
-            Então o portal deve direcionar para a página de checkout do portal EBAC-SHOP
+            Então o portal deve exibir a <mensagem>
 
             Exemplos:
-            | produto                   | cor      | tamanho | quantidade |
-            | "Augusta Pullover Jacket" | "Orange" | "M"     | 10         |
+            | quantidade  | mensagem                         |
+            |  09         | "Produto adicionado ao carrinho" |
+            |  10         | "Produto adicionado ao carrinho" |
+            |  11         | "Quantidade máxima excedida"     |
 
             Esquema do Cenário: Limpar os produtos selecionados
             Quando eu selecionar a cor, o tamanho e a quantidade do produto
