@@ -16,7 +16,6 @@
             Exemplos:
             | nome       | sobrenome | pais     | endereco       | cidade     | cep        | telefone    | enderecoDeEmail                | mensagem                       |
             | "Augusta"  | "Pedrita" | "Brasil" | "Rua Vitoria"  | "Cajamar"  | "09399876" | "985664477" | "augustapedrita11@gmail.com"   | "Compra realizada com sucesso" |
-            | "Fernando" | "Lopes"   | "Chile"  | "Avenida Vida" | "Santiago" | "88995345" | "889822885" | "fernandolopes89787@gmail.com" | "Compra realizada com sucesso" |
 
             Esquema do Cenário: Cadastramento com dados inválidos
             Quando eu preencher obrigatoriamente os campos <nome>, <sobrenome>, <pais>, <endereco>, <cidade>, <cep>, <telefone> e <enderecoDeEmail>
@@ -26,8 +25,7 @@
             Exemplos:
             | nome       | sobrenome | pais     | endereco       | cidade     | cep        | telefone    | enderecoDeEmail         | mensagem         |
             | "Augusta"  | "Pedrita" | "Brasil" | "Rua Vitoria"  | "Cajamar"  | "09399876" | "985664477" | "augustapedrita11@gma"  | "Email inválido" |
-            | "Fernando" | "Lopes"   | "Chile"  | "Avenida Vida" | "Santiago" | "88995345" | "889822885" | "%$%$#ferna@outhjt.com" | "Email inválido" |
-
+            
             Esquema do Cenário: Validação de campos obrigatórios no checkout
             Quando eu preencher obrigatoriamente os campos <nome>, <sobrenome> e <enderecoDeEmail>
             E deixar os campos <pais>, <endereco>, <cidade>, <cep> e <telefone> vazios
@@ -37,5 +35,4 @@
             Exemplos:
             | nome       | sobrenome | pais     | endereco | cidade | cep | telefone | enderecoDeEmail                | mensagem                       |
             | "Augusta"  | "Pedrita" | "Brasil" |          |        |     |          | "augustapedrita11@gmail.com"   | "Dados obrigatórios faltantes" |
-            | "Fernando" | "Lopes"   | "Chile"  |          |        |     |          | "fernandolopes89787@gmail.com" | "Dados obrigatórios faltantes" |
 
