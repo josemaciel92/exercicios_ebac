@@ -28,10 +28,6 @@
             | "Augusta Pullover Jacket" | "Orange" | "M"     | 10         |
 
             Esquema do Cenário: Limpar os produtos selecionados
-            Quando eu selecionar o <produto> na <cor> no <tamanho> e atribuir a <quantidade>
+            Quando eu selecionar a cor, o tamanho e a quantidade do produto
             E clicar no botão "Limpar" na página de seleção de produtos
             Então o portal deve voltar ao estado original
-
-            Exemplos:
-            | produto                   | cor   | tamanho | quantidade |
-            | "Augusta Pullover Jacket" | "Red" | "L"     | 3          |
