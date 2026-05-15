@@ -29,7 +29,7 @@
             |  10         | "Produto adicionado ao carrinho" |
             |  11         | "Quantidade máxima excedida"     |
 
-            Esquema do Cenário: Limpar os produtos selecionados
+            Cenário: Limpar os produtos selecionados
             Quando eu selecionar a cor, o tamanho e a quantidade do produto
             E clicar no botão "Limpar" na página de seleção de produtos
             Então o portal deve voltar ao estado original
