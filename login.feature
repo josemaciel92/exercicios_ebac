@@ -8,12 +8,12 @@ Para visualizar meus pedidos
 Contexto:
 Dado que eu acesse o portal da EBAC-SHOP
 
-Cenário: Login com credenciais válidas
+Cenário: Autenticação válida
 Quando eu inserir o usuário "JoseMaciel"
 E inserir a senha "Ebac1010"
-Então o portal deve direcionar para a home do portal EBAC-SHOP
+Então deve ser exibido a mensagem de boas vindas "Ola Jose"
 
-Cenário: Login com credenciais inválidas
+Cenário: Senha inválida
 Quando eu inserir o usuário "JoseMaciel"
-E inserir a senha "/**"
-Então o sistema deve exibir a mensagem "Usuário ou senha inválidos"
+E inserir a senha "11/**"
+Então deve ser exibido a mensagem "Usuário ou senha inválidos"
