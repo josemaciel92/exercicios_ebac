@@ -9,8 +9,7 @@ Contexto:
 Dado que eu acesse o portal da EBAC-SHOP
 
 Cenário: Selecionar produto válido
-Quando eu selecionar o produto "Augusta Pullover Jacket"
-E informar a cor "Blue", o tamanho "XL" e a quantidade "2"
+Quando eu selecionar a cor, o tamanho e a quantidade do produto
 E clicar no botão "Comprar"
 Então o portal deve direcionar para a página de checkout
 
