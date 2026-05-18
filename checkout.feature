@@ -11,12 +11,12 @@
             Esquema do Cenário: Finalização de compra com dados válidos
             Quando eu preencher todos os campos obrigatórios do cadastro <nome> <sobrenome> <pais> <endereco> <cidade> <cep> <telefone> e <email> 
             E clicar no botão "FINALIZAR COMPRA"
-            Então o sistema deve exibir a mensagem <mensagem>
+            Então o sistema deve exibir a mensagem "Compra realizada com sucesso"
 
             Exemplos:
-            | nome      | sobrenome | pais     | endereco      | cidade    | cep        | telefone   | email                         | mensagem                       | 
-            | "Augusta" | "Pedrita" | "Brasil" | "Rua Vitória" | "Cajamar" | "09399876" | "985664477" | "augustapedrita11@gmail.com" | "Compra realizada com sucesso" | 
-            | "Leonard" | "Silveir" | "Brasil" | "Rua Clelias" | "Osascos" | "09978787" | "094737667" | "leonardsilveira2@gmail.com" | "Compra realizada com sucesso" | 
+            | nome      | sobrenome | pais     | endereco      | cidade    | cep        | telefone   | email                         | 
+            | "Augusta" | "Pedrita" | "Brasil" | "Rua Vitória" | "Cajamar" | "09399876" | "985664477" | "augustapedrita11@gmail.com" |  
+            | "Leonard" | "Silveir" | "Brasil" | "Rua Clelias" | "Osascos" | "09978787" | "094737667" | "leonardsilveira2@gmail.com" |
 
             Cenário: Validar cadastro com e-mail inválido
             Quando eu informar um e-mail em formato inválido no cadastro
