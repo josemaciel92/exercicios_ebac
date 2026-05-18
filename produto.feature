@@ -12,7 +12,7 @@ Cenário: Selecionar produto válido
 Quando eu selecionar o produto "Augusta Pullover Jacket"
 E informar a cor "Blue", o tamanho "XL" e a quantidade "2"
 E clicar no botão "Comprar"
-Então o portal deve direcionar para a página de checkout do portal EBAC-SHOP
+Então o portal deve direcionar para a página de checkout
 
 Esquema do Cenário: Validar limite máximo de produtos por venda
 Quando eu selecionar um produto
